@@ -15,8 +15,7 @@
 #### Results
 
 ## Introduction
-Art is a reflection of human expression, and every artist possesses a unique style that defines their creations. This project aims to analyze your paintings and identify the artistic influences that resonate within them. By utilizing machine learning techniques, we have trained a model to recognize the resemblances of your artwork to famous artists.
-
+Art is a reflection of human expression, and every artist possesses a unique style that defines their creations. By utilizing machine learning techniques, we have trained a model that focuses on leveraging the power of neural networks to determine which artist's style your artwork most closely resembles.
 ## Dependencies
 Make sure you have the following dependencies installed:
 
