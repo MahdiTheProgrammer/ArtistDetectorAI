@@ -15,7 +15,7 @@
 #### Results
 
 ## Introduction
-Art is a reflection of human expression, and every artist possesses a unique style that defines their creations. By utilizing machine learning techniques, we have trained a model that focuses on leveraging the power of neural networks to determine which artist's style your artwork most closely resembles.
+Art is a reflection of human expression, and every artist possesses a unique style that defines their creations. By utilizing machine learning techniques, I have trained a model that focuses on leveraging the power of neural networks to determine which artist's style your artwork most closely resembles.
 ## Dependencies
 Make sure you have the following dependencies installed:
 
@@ -38,22 +38,22 @@ import torch.optim as optim
 ```
 
 ## Useful Functions
-We have included several utility functions for data analysis, plotting, accuracy calculation, and more. These functions are contributed by Daniel Bourke and are helpful for visualizing and interpreting the project's progress.
+I have included several utility functions for data analysis, plotting, accuracy calculation, and more. These functions are contributed by Daniel Bourke and are helpful for visualizing and interpreting the project's progress.
 
 ## Dataset
-We created a dataset comprising grayscale images of artworks from 10 renowned artists, including Andy Warhol, Claude Monet, Edvard Munch, Henri Matisse, Leonardo da Vinci, Michelangelo, Pablo Picasso, Rembrandt, Salvador Dali, and Vincent van Gogh.
+I created a dataset comprising grayscale images of artworks from 10 renowned artists, including Andy Warhol, Claude Monet, Edvard Munch, Henri Matisse, Leonardo da Vinci, Michelangelo, Pablo Picasso, Rembrandt, Salvador Dali, and Vincent van Gogh.
 
 ## Data Preprocessing
-The dataset is loaded, preprocessed, and transformed into appropriate formats for training and evaluation. We also provide a function to display sample images from the dataset.
+The dataset is loaded, preprocessed, and transformed into appropriate formats for training and evaluation. I also provide a function to display sample images from the dataset.
 
 ## Model Architecture
-We tried different convolutional neural network (CNN) architectures to extract features from the paintings effectively. The final chosen architecture is a CNN with two convolutional layers followed by two max-pooling layers, and two fully connected layers for classification.
+I tried different convolutional neural network (CNN) architectures to extract features from the paintings effectively. The final chosen architecture is a CNN with two convolutional layers followed by two max-pooling layers, and two fully connected layers for classification.
 
 ## Training
-The model is trained using the training dataset, with the Adam optimizer and cross-entropy loss function. We perform 30 epochs of training and monitor both training and testing loss and accuracy.
+The model is trained using the training dataset, with the Adam optimizer and cross-entropy loss function. I perform 30 epochs of training and monitor both training and testing loss and accuracy.
 
 ## Results
-The results of the training process are displayed and interpreted. We showcase the progression of training loss and accuracy over epochs.
+The results of the training process are displayed and interpreted. I showcase the progression of training loss and accuracy over epochs.
 
 
 
