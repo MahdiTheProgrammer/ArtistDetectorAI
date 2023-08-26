@@ -1,74 +1,61 @@
-# Artistic Similarity Model
+# Artistic Similarity Model: Unleashing AI to Identify the Echoes of Renowned Artists in Your Paintings! 
+### Welcome to  Artistic Similarity Model – This project focuses on leveraging the power of neural networks to determine which artist's style your artwork most closely resembles. 
+
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Tsunami_by_hokusai_19th_century.jpg"/>
 
-Overview
-The Artistic Similarity Model is a project that involves designing and training a machine learning model to determine which artist's work a given painting resembles. This repository contains all the code, data, and resources required to replicate and understand the project.
+## Table of Contents
+#### Introduction
+#### Dependencies
+#### Useful Functions
+#### Dataset
+#### Data Preprocessing
+#### Model Architecture
+#### Training
+#### Results
 
-Table of Contents
-Introduction
-Getting Started
-Prerequisites
-Installation
-Usage
-Data
-Model
-Training
-Evaluation
-Results
-Contributing
-License
-Contact
-Introduction
-The world of art is vast and diverse, with each artist possessing a unique style that sets them apart. This project aims to leverage the power of machine learning to determine which artist's style a given painting resembles the most. By training a model on a carefully curated dataset of paintings from various artists, we can create a tool that provides insights into the artistic influences behind a piece of artwork.
+## Introduction
+Art is a reflection of human expression, and every artist possesses a unique style that defines their creations. This project aims to analyze your paintings and identify the artistic influences that resonate within them. By utilizing machine learning techniques, we have trained a model to recognize the resemblances of your artwork to famous artists.
 
-Getting Started
-Prerequisites
-Python 3.7+
-TensorFlow 2.x / PyTorch 1.x (Choose one as per your preference)
-Jupyter Notebook (for running the provided notebooks)
-Required libraries as mentioned in requirements.txt
-Installation
-Clone the repository: git clone https://github.com/your-username/artistic-similarity-model.git
-Navigate to the project directory: cd artistic-similarity-model
-Install the required packages: pip install -r requirements.txt
-Usage
-Data Preparation: The dataset used for training the model needs to be prepared. Refer to the Data section for details on the dataset and its structure.
+## Dependencies
+Make sure you have the following dependencies installed:
 
-Model Training: The model architecture and training process are outlined in the Training section. You can adjust hyperparameters and experiment with different architectures.
+```
+import torch
+from tqdm.auto import tqdm
+import numpy as np
+import random
+import os
+from PIL import Image
+from torch.utils.data import Dataset, DataLoader
+import matplotlib.pyplot as plt
+from torchvision.transforms import transforms
+from timeit import default_timer as timer
+from torch import nn
+import torch.quantization
+from torch.quantization import QuantStub, DeQuantStub, quantize_dynamic
+from collections import OrderedDict
+import torch.optim as optim 
+```
 
-Evaluation: After training, the model's performance needs to be evaluated. Details on evaluation metrics and procedures can be found in the Evaluation section.
+## Useful Functions
+We have included several utility functions for data analysis, plotting, accuracy calculation, and more. These functions are contributed by Daniel Bourke and are helpful for visualizing and interpreting the project's progress.
 
-Inference: Once the model is trained and evaluated, you can use it to determine the artist's similarity for a given painting. This can be done by loading the trained model and using it for predictions.
+## Dataset
+We curated a dataset comprising grayscale images of artworks from 10 renowned artists, including Andy Warhol, Claude Monet, Edvard Munch, Henri Matisse, Leonardo da Vinci, Michelangelo, Pablo Picasso, Rembrandt, Salvador Dali, and Vincent van Gogh.
 
-Data
-The dataset used for this project comprises a collection of paintings from various artists. Each painting is labeled with the corresponding artist's name. Unfortunately, due to licensing restrictions, we cannot provide the dataset in this repository. However, instructions for obtaining a similar dataset from open sources are provided in the data_sources.md file.
+## Data Preprocessing
+The dataset is loaded, preprocessed, and transformed into appropriate formats for training and evaluation. We also provide a function to display sample images from the dataset.
 
-Model
-The chosen model architecture for this project is a [brief description of your model architecture].
+## Model Architecture
+We experimented with different convolutional neural network (CNN) architectures to extract features from the paintings effectively. The final chosen architecture is a CNN with two convolutional layers followed by two max-pooling layers, and two fully connected layers for classification.
 
-Training
-To train the model, follow these steps:
+## Training
+The model is trained using the training dataset, with the Adam optimizer and cross-entropy loss function. We perform 30 epochs of training and monitor both training and testing loss and accuracy.
 
-Preprocess the data, including data augmentation if necessary.
-Split the dataset into training, validation, and test sets.
-Define the model architecture using the provided code.
-Train the model using the training set and validate using the validation set.
-Fine-tune hyperparameters for better performance.
-Refer to the training.ipynb notebook for a detailed example of the training process.
+## Results
+The results of the training process are displayed and interpreted. We showcase the progression of training loss and accuracy over epochs.
 
-Evaluation
-The model's performance is evaluated using metrics such as accuracy, F1-score, or custom metrics suited for the task. The evaluation process involves making predictions on the test set and comparing them with the ground truth labels. More details can be found in the evaluation.ipynb notebook.
 
-Results
-The model achieved [mention the results achieved by your model, such as accuracy, precision, etc.]. For more details on the results, refer to the results.md file.
 
-Contributing
-Contributions to this project are welcome! If you find any issues or want to enhance the project, feel free to submit a pull request. Please review our contributing guidelines for more information.
 
-License
-This project is licensed under the MIT License.
-
-Contact
-If you have any questions or suggestions, please feel free to reach out to [your email address].
-
-By following this README template, you can provide a clear and comprehensive guide to your Artistic Similarity Model project on GitHub. Customize the sections and content as necessary to accurately represent your project's structure and details.
