@@ -15,7 +15,9 @@
 #### Results
 
 ## Introduction
-Art is a reflection of human expression, and every artist possesses a unique style that defines their creations. By utilizing machine learning techniques, I have trained a model that focuses on leveraging the power of neural networks to determine which artist's style your artwork most closely resembles.
+Art is a reflection of human expression, and every artist possesses a unique style that defines their creations. By utilizing machine learning techniques, I have trained a model that focuses on leveraging the power of neural networks to determine which artist's style your artwork most closely resembles.<br>
+In the Quora link provided above, it's evident that this project has the potential to greatly benefit artists. <br>
+<a href="https://www.quora.com/How-do-I-find-an-artist-who-has-an-art-style-similar-to-mine">Click here </a>
 ## Dependencies
 Make sure you have the following dependencies installed:
 
