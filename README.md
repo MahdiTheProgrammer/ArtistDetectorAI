@@ -68,7 +68,7 @@ I am currently working on the second version which can get acc of 80%. The code 
 ```
 project_v2.ipynb
 ```
-file. 
+file. <br>
 9/17/2023
 Code in 
 ```
