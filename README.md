@@ -58,12 +58,17 @@ The model is trained using the training dataset, with the Adam optimizer and cro
 The results of the training process are displayed and interpreted. I showcase the progression of training loss and accuracy over epochs.
 
 ## Status 
-I am currently working on the second version which can get acc of 90%. The code will be available in 
+9/16/2023
+I am currently working on the second version which can get acc of 80%. The code will be available in 
 ```
 project_v2.ipynb
 ```
 file. 
-
-
+9/17/2023
+Code in 
+```
+project_v2.ipynb
+```
+directory works with acc of 80%. Comments will be added soon.
 
 
