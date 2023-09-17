@@ -62,13 +62,13 @@ The first official version is available in
 ```
 project.ipynb
 ```  
-file. <br>
+file. <br><br>
 9/16/2023 <br>
 I am currently working on the second version which can get acc of 80%. The code will be available in 
 ```
 project_v2.ipynb
 ```
-file. <br>
+file. <br><br>
 9/17/2023 <br>
 Code in 
 ```
