@@ -23,10 +23,7 @@ In the Quora link provided above, it's evident that this project has the potenti
 ## Android Application
 Now you can experience the power of AI with your phone! I have developed an Android application based on this model.
 <br><br><br>
-<img src="https://play-lh.googleusercontent.com/P5Z0HKuTYjcj6F1jvSgxYHgAmEqHdyfG6Ts0lDfcKVDGIyfLLs43tw41GQMM4q48TQ=w240-h480-rw" style="border: 2px ; border-radius: 50px;   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;"/>
+<img src="https://play-lh.googleusercontent.com/P5Z0HKuTYjcj6F1jvSgxYHgAmEqHdyfG6Ts0lDfcKVDGIyfLLs43tw41GQMM4q48TQ=w240-h480-rw" style="border: 2px ; border-radius: 50px;   display: block; margin-left: auto; margin-right: auto; width: 40%">
 
 
 ## Dependencies
