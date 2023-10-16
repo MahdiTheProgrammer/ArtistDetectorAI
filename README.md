@@ -25,8 +25,9 @@ Now you can experience the power of AI with your phone! I have developed an Andr
 <br><br><br>
 <div align="center" style="border: 5px ; border-radius: 50px;">
 
-<img src="https://play-lh.googleusercontent.com/P5Z0HKuTYjcj6F1jvSgxYHgAmEqHdyfG6Ts0lDfcKVDGIyfLLs43tw41GQMM4q48TQ=w240-h480-rw" style="border: 5px ; border-radius: 50px;">
-</div>
+<img src="https://play-lh.googleusercontent.com/P5Z0HKuTYjcj6F1jvSgxYHgAmEqHdyfG6Ts0lDfcKVDGIyfLLs43tw41GQMM4q48TQ=w240-h480-rw" alt="Application Icon" style="border: 5px ; border-radius: 50px;">
+</div><br>
+<a href="https://play.google.com/store/apps/details?id=com.artistdetectorai.app">CLick here</a> to see the Google Play Store page.
 
 
 ## Dependencies
