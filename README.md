@@ -6,6 +6,7 @@
 
 ## Table of Contents
 #### Introduction
+#### Android Application
 #### Dependencies
 #### Useful Functions
 #### Dataset
@@ -18,6 +19,13 @@
 Art is a reflection of human expression, and every artist possesses a unique style that defines their creations. By utilizing machine learning techniques, I have trained a model that focuses on leveraging the power of neural networks to determine which artist's style your artwork most closely resembles.<br>
 In the Quora link provided above, it's evident that this project has the potential to greatly benefit artists. <br>
 <a href="https://www.quora.com/How-do-I-find-an-artist-who-has-an-art-style-similar-to-mine">Click here </a>
+
+## Android Application
+Now you can experience the power of AI with your phone! I have developed an Android application based on this model.
+<br><br><br>
+<img src="https://play-lh.googleusercontent.com/P5Z0HKuTYjcj6F1jvSgxYHgAmEqHdyfG6Ts0lDfcKVDGIyfLLs43tw41GQMM4q48TQ=w240-h480-rw" style="margin-left: 30%; margin-right: 30%;   border: 2px ; border-radius: 50px;"/>
+
+
 ## Dependencies
 Make sure you have the following dependencies installed:
 
